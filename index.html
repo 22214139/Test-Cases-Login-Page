@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Project - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main id="login-container" class="card">
+        <header>
+            <h2>Login Panel</h2>
+            <p>Please enter your credentials</p>
+        </header>
+        
+        <form id="login-form">
+            <div class="input-group">
+                <label>Username</label>
+                <input type="text" id="username" placeholder="Username" autocomplete="off">
+            </div>
+
+            <div class="input-group">
+                <label>Password (8-12 chars)</label>
+                <input type="password" id="password" placeholder="Password">
+            </div>
+
+            <button type="submit" id="login-btn">Login</button>
+        </form>
+
+        <div id="status-message" class="message-box"></div>
+    </main>
+
+    <section id="dashboard" class="card hidden">
+        <div class="success-icon">✓</div>
+        <h2 id="welcome-text">Welcome!</h2>
+        <p>Login successful.</p>
+        <button id="logout-btn" class="secondary-btn">Go Back</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

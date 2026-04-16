@@ -1,2 +1,8 @@
 # Test Cases – Login Page
-Test Cases – Login Page
+
+# Username = admin 
+
+# Password = 12345678
+
+
+
